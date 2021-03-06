@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bd1d221-443b-4b85-882b-47674954ec37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaclasswork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaclasswork/task1/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaclasswork/task1/Magazine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaclasswork/task1/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaclasswork/task1/Printable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/Drum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/Gitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/Instryment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/Trumpet.java" afterDir="false" />
+    <list default="true" id="7bd1d221-443b-4b85-882b-47674954ec37" name="Default Changelist" comment="Classwork">
       <change beforePath="$PROJECT_DIR$/../javaTask1" beforeDir="false" afterPath="$PROJECT_DIR$/../javaTask1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaTask3/src/clothes/WomenClothers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaTask3/src/clothes/WomenClothers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +111,16 @@
       <option name="presentableId" value="Default" />
       <updated>1614621790726</updated>
       <workItem from="1614621792836" duration="134000" />
-      <workItem from="1614621978295" duration="3102000" />
+      <workItem from="1614621978295" duration="6721000" />
     </task>
+    <task id="LOCAL-00001" summary="Classwork">
+      <created>1614625097090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614625097090</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,5 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Classwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork" />
   </component>
 </project>
