@@ -8,7 +8,7 @@ import lombok.*;
 @Getter
 @Setter
 @EqualsAndHashCode
-@ToString
+
 public class Movie {
     private String title;
     private Time duration;
@@ -16,5 +16,11 @@ public class Movie {
     public Time givEndTime( Time startTime) {
         Time sumTime = startTime.sumTime(this.duration);
         return sumTime;
+    }
+
+    @Override
+    public String toString() {
+        return "Movie '" + title + "'" +
+                "  duration " + duration;
     }
 }

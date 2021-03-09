@@ -6,7 +6,7 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @EqualsAndHashCode
-@ToString
+
 public class Time {
     private int hour;
     private int min;
@@ -44,4 +44,10 @@ public class Time {
         return new Time(sumH, sumM);
     }
 
+
+    @Override
+    public String toString() {
+        return  hour +
+                ":" + min;
+    }
 }

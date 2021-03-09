@@ -5,17 +5,36 @@ import lombok.*;
 import java.util.Set;
 import java.util.TreeSet;
 
-@NoArgsConstructor
 @Getter
 @Setter
 @EqualsAndHashCode
-@ToString
 public class Schedule {
 
-    private Set<Seance> set;
+    private Set<Seance> setSeans;
 
-    public Schedule(Set<Seance> set) {
-        this.set = new TreeSet <Seance>();
+    public Schedule() {
+        this.setSeans = new TreeSet <Seance>();
     }
 
+    public Seance addSeance(Movie movie, Time startTime) {
+        setSeans.add(new Seance(movie, startTime));
+        return new Seance(movie, startTime);
+    }
+
+    public Seance addSeance( Seance seance) {
+         setSeans.add(seance);
+        return seance;
+    }
+    
+    
+    public void removeSeance (Seance seance) {
+        setSeans.remove(seance);
+    }
+
+
+    @Override
+    public String toString() {
+        return "Schedule ==> " +
+                "All Seanse ==> " + setSeans;
+    }
 }
