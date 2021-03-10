@@ -12,8 +12,9 @@ public class Schedule {
 
     private Set<Seance> setSeans;
 
-    public Schedule() {
-        this.setSeans = new TreeSet <Seance>();
+
+    public Schedule(TreeSet<Seance> seances) {
+        this.setSeans = seances;
     }
 
     public Seance addSeance(Movie movie, Time startTime) {
