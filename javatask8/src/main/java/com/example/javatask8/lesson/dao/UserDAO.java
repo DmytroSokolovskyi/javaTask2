@@ -1,7 +1,7 @@
-package com.example.javatask8.dao;
+package com.example.javatask8.lesson.dao;
 
 
-import com.example.javatask8.models.User;
+import com.example.javatask8.lesson.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 

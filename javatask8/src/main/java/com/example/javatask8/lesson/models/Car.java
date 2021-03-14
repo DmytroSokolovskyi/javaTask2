@@ -1,4 +1,4 @@
-package com.example.javatask8.models;
+package com.example.javatask8.lesson.models;
 
 
 import lombok.*;
