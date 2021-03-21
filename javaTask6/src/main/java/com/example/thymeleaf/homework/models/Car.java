@@ -17,9 +17,9 @@ public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String model;
-    private String year;
+    private int year;
 
-    public Car(String model, String year) {
+    public Car(String model, int year) {
         this.model = model;
         this.year = year;
     }
@@ -40,11 +40,11 @@ public class Car {
         this.model = model;
     }
 
-    public String getYear() {
+    public int getYear() {
         return year;
     }
 
-    public void setYear(String year) {
+    public void setYear(int year) {
         this.year = year;
     }
 }
