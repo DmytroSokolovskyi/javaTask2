@@ -54,6 +54,7 @@ public class MainController {
     @PostMapping("/save")
     public void saveStudentWithImage(@RequestParam String name,
                                      @RequestParam MultipartFile image) {
+         System.out.println("qqqqqq" + image.getOriginalFilename());
         String pathToImg = System.getProperty("user.home")
                 + File.separator + "javaImg" + File.separator;
 
