@@ -1,0 +1,33 @@
+<form #myForm="ngForm" (ngSubmit)="save(myForm)">
+
+  <input type="text" name="model" [(ngModel)]="car.model">
+  <input type="number" name="year" [(ngModel)]="car.year">
+  <button>save</button>
+</form>
+
+<form #myFormDell="ngForm" >
+  <select #selected>
+    <option *ngFor="let car of cars" [value]="car.id">
+      {{car.id}} - {{car.model}} - {{car.year}}
+    </option>
+  </select>
+  <button (click)="dellById(selected.value)">dell</button>
+</form>
+<br>
+
+
+<div *ngFor="let car of cars">
+  {{car.id}} - {{car.model}} - {{car.year}}
+  <button (click)="getById(car.id)">get</button>
+</div>
+
+<br>
+
+<div>
+{{carWithId?.id}} - {{carWithId?.model}} - {{carWithId?.year}}
+</div>
+
+
+
+
+
