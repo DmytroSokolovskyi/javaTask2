@@ -1,0 +1,29 @@
+<div>
+  {{oneList.id}}
+  {{oneList.title}}
+  {{oneList.cretedAt}}
+  {{oneList.updatedAt}}
+  <button (click)="editList(oneList.id)">Edit</button>
+  <button (click)="deleteList(oneList.id)">Delete</button>
+</div>
+
+<div>
+  <app-todo [idList]="oneList.id" ></app-todo>
+</div>
+<div *ngFor="let todo of oneList.todos">
+</div>
+
+
+<div *ngIf="editListId == oneList.id">
+
+  <form name="editForm" #myForm="ngForm" [formGroup]="editForm" (ngSubmit)="getEditList(oneList.id)">
+
+    <label>
+      Edit your ToDo title
+      <input type="text" name="title" formControlName="title" value="{{oneList.title}}">
+    </label>
+  </form>
+
+</div>
+
+

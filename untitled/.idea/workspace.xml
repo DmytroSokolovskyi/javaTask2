@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9939bd1b-a6b7-4d23-85b2-e0ea515ffdcd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../javaTask5/lib/joda-time-2.10.10-dist.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaTask5/lib/joda-time-2.10.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/example/security/configs/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/example/security/configs/SecurityOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/example/security/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/main/java/com/example/todo/TodoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/main/java/com/example/todo/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/main/java/com/example/todo/dao/TodoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/main/java/com/example/todo/models/ListTodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/main/java/com/example/todo/models/Todo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/test/java/com/example/todo/TodoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/src/main/java/com/example/todoback/TodobackApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/src/main/java/com/example/todoback/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/src/main/java/com/example/todoback/dao/TodoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/src/main/java/com/example/todoback/models/ListToDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/src/main/java/com/example/todoback/models/Todo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoback/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaTask1" beforeDir="false" afterPath="$PROJECT_DIR$/../javaTask1" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1qO6UD78qI0I5vw8ntQ8nlfiqNq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9939bd1b-a6b7-4d23-85b2-e0ea515ffdcd" name="Default Changelist" comment="" />
+      <created>1616938316886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616938316886</updated>
+      <workItem from="1616938318464" duration="195000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

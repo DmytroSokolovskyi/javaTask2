@@ -1,0 +1,33 @@
+<div>
+  <form name="myForm" [formGroup]="myForm"  (ngSubmit)="save()" >
+    <label>
+      Write Title to new Group
+      <input type="text" name="title" formControlName="title" >
+    </label>
+
+    <button>Save</button>
+  </form>
+</div>
+
+
+<div>
+  <form name="searchForm" [formGroup]="searchForm"  (ngSubmit)="search()" >
+    <label>
+      search
+      <input type="text" name="key" formControlName="key" >
+    </label>
+
+    <button>search</button>
+
+  </form>
+</div>
+<div *ngFor="let s of searchList">
+<app-onelist [oneList]="s"></app-onelist>
+</div>
+
+<hr>
+<div>
+  <app-todolist></app-todolist>
+</div>
+
+
